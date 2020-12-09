@@ -1,0 +1,40 @@
+      {  k if x in [a,b]
+p(x) {
+      {  0 if x not in [a, b]
+
+A)
+
+integral of p(x) from - infinity to a then from a to b then from b to infinity
+
+the integrals with infinity equal zero so they don't matter
+
+from a to b it would be kb - ka or k(b-a) so if this equals 1 then it would be
+
+k = 1/( b- a) 
+
+B) this would be integral of p(x) from - infinity to x so it would be - infinity to A
+then a to b then b to x
+
+the - infinity integral doesnt matter then from a to b its the equation above k(b-a)
+
+and from b to x i believe it would be zero because it isn't in the bounds of a and b but it
+could also be kx - kb but I'm not sure
+
+C) integral of x p(x)
+
+so split up again the outside infinity integrals don't matter so it would be
+
+x p(x) from a to b and that integral would be xk from a to b
+
+which ends up being x^2 over 2 * k from a to b
+so that ends up being (x^2/2) (b - a)
+
+D) The integral from - infinity to infinity of (x - E[x])^2 
+
+the oytside infinities don't matter so its just from a to b  
+
+(x - (x^2/2) (b - a))^ 2 = x^2  - 2 (x) (x^2/2) (b - a) + ((x^2/2) (b - a)) ^ 2
+
+= x^3 / 3 - ((2x^4)/4)(b-a) +  x^5/20(b-a)^2 and plug in the b and a's you get
+
+b^3 / 3 - ((2b^4)/4)(b-a) +  b^5/20(b-a)^2 - (a^3 / 3 - ((2a^4)/4)(b-a) +  a^5/20(b-a)^2)

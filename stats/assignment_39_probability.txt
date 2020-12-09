@@ -1,0 +1,54 @@
+A:
+
+1: it arrives at 8 but takes 20 minutes to get there. Then it takes between 0 and 15 minutes on top of that so the average would be 7.5 so you expect to get to work at around 8:27.5.
+
+2)
+It takes 20 mins to get there again. This one arives at 8:05 so we get 8:25 then we have 0 to 10 mins delay so the avg  is actually 8:30.
+
+3) It would be 11/16, one for every minute of delay zero to fifteen and this is around 68 percent.
+
+4) Same principle as above except this time its 6/11, because there's 11 different variations this time.
+
+B:
+
+1) Expected Probability: Int(x* p(x)) from -infinity to infinity
+
+int(0) from -infitiy to zero and 10xe^-10x from 0 to infinity
+
+ignore first integral instead the second one becomes -xe^-10x - e^-10x/10. so now putting in valuse of x as
+the limits, the whole first term of infinity goes to zero. and then the first term of the second bunch also goes
+to zero because of the x and then the last term becomes 1/10 so the avg is 0.1
+
+0 - (0 - 1/10) = 1/10
+
+2) Int(p(x)) from 60 to infinity
+
+the integral of p(x) is -e^-10x the infinity side goes to zero again so it becomes
+
+0 - (-e^(-10 * 60)) so e^(-600) = 2.650397e-261
+
+so the probability of staying for more than a min is 2.65-261 percent.
+
+3) int(p(x)) from 0 to p
+
+same thing as before -e^(-10x) is the integral 
+
+it would be -e^(-10p) - (-e^0) = .99999
+so then it becomes e^-10p = -0.00001
+
+-10p = ln(-0.00001)
+p = ln(-0.00001)/-10
+p = 1.15
+
+ the probability of coming out of the wormhole within 1.15 seconds is  99.999%.
+
+ 4) seconds in a day = 86400
+
+ int(p(x)) from 86400 to infinity
+ integral same as above
+ -e^(-10x) at infinity = 0 so then it becomes
+
+ 0 - (-e^(-10*86400)) = 0 - 0 = 0
+
+ 5) You don't theres literally a 99 percent chance you stay there for 1.15 seconds and even if you do get stuck for longer 
+ it's literally impossible to be stuck in it for more than a day. It's literally proved in problem four

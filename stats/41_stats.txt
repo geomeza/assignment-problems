@@ -1,0 +1,6 @@
+1) The chance of getting the number is 1/k where k is in between 1 and the bound
+chances of getting {1, 17, 8, 25, 3} would just be 1/k to the 5th 
+so it would be 1/ (k^5)
+
+2) Sum of 0 if  < 25 and c * 1/k^5 if > 25
+c = 1443199.78

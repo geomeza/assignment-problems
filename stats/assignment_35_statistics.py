@@ -1,3 +1,5 @@
+import sys
+sys.path.append('src')
 from coin_flipping import probability
 
 def expected_value(x,probabilities): ## PROBABILITIES IS THE DISTRIBUTION OF POSSIBILITES

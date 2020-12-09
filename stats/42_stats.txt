@@ -1,0 +1,74 @@
+A:
+
+1) Simplify ( 2^x/x! from 0 to infinity ) to just e^2 and the original sum is multiplied by e^-2 so e^2 * e^-2 = e^0
+which is 1
+
+
+
+2) Solve ( 2^x/x! * e^-2 from 11 to 12 )
+
+e^-2 ((2^11/11!) + (2^12/12!))  WHAT IS CLOSED FORM????
+
+
+
+3) e^-2 (x * 2^x/x! from 0 to infinity)
+
+e^(-2) (2^x) / (x-1)! from 0 to infinity
+
+2e^(-2) (2^(x-1)) / x-1! from 0 to infinity
+
+2e^-2 times e^2 = 2
+
+
+
+4) (x-2)^2 * 2^x/x! * e^-2 from 0 to infinity
+
+x^2 - 4x + 4 (2^x/x! * e^-2) from 0 to infinity
+
+_______
+
+x^2 (2^x/x! * e^-2) from 0 to infinity = 6
+
+_______
+
+- 4x(2^x/x! * e^-2) from 0 to infinity = -8 
+
+_______
+
+ 4(2^x/x! * e^-2) from 0 to infinity = 4
+
+
+ 6-8 = -2 + 4 = 2
+
+
+B:
+
+1) Same as A1, λ^x / x! = e^λ and then that's multiplied by e^-λ which equals e^0 = 1
+
+
+
+2) Solve ( λ^x/x! * e^-λ from 11 to 12 )
+
+e^-λ ((λ^11/11!) + (λ^12/12!)) Once again, what is closed form?
+
+
+3)
+
+e^-λ (x * λ^x/x! from 0 to infinity)
+
+e^(-λ) (λ^x) / (x-1)! from 0 to infinity
+
+λe^(-λ) (λ^(x-1)) / x-1! from 0 to infinity
+
+λe^-λ times e^λ = λ
+
+4)
+(x-λ) ^ 2 = (x^2 - 2xλ + λ^2) * ( λ^x/x! * e^-λ from 0 to infinity )
+
+x^2 λ^x/x! * e^-λ = λ^2 + λ
+
+- 2xλ * λ^x/x! * e^-λ = -2λ^2
+
++ λ^2 * λ^x/x! * e^-λ  = λ^2
+
+λ^2 + λ - 2λ^2 + λ^2 = λ

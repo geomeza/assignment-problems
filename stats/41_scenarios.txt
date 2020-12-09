@@ -1,0 +1,13 @@
+Scenario 1) Logistic instead of linear:
+Road Trip Gas Money:
+Every gallon you use costs a certain amount so its a linear progression of gallons to miles
+For some reason you think that the more you fill up a tank the longer it will last as in you put in 20 gallons at once 
+and it would somehow last longer than putting it in throughout the trip.
+This is logistic because the more you put in the longer you think it will last but thats not the case, you end up 
+budgeting the wrong amount of gaas money and now you're out of gas money for the road trip and you're stranded
+
+Scenario 2) Linear instead og Logistic:
+Video Game Progress Boosters:
+You forget there is a max level or progression in a game, you start new but throughout you can buy consumable progression
+boosters, you end up buying way too many progress boosters off the bat and end up hitting the progression cap with still a 
+ton of leftover progression boosters now you wasted money on all these progression boosters for nothing

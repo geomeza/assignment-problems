@@ -1,2 +1,2 @@
 language = "bash"
-run = "python3 tests/test_quicksort.py"                                                             
+run = "python3 tests/test_random_draw.py"                                                             
